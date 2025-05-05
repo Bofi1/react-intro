@@ -1,5 +1,12 @@
+import HeaderComponent from "../components/HeaderComponent";
+
 function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <HeaderComponent />
+      <h2>HomePage</h2>
+    </>
+  );
 }
 
 export default HomePage;

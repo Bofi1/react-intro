@@ -1,5 +1,12 @@
+import HeaderComponent from "../components/HeaderComponent";
+
 function NotesPage() {
-  return <div>NotesPage</div>;
+  return (
+    <>
+      <HeaderComponent />
+      <h2>NotesPage</h2>
+    </>
+  );
 }
 
 export default NotesPage;
