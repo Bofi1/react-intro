@@ -4,10 +4,12 @@ import HomePage from "./pages/HomePage";
 import NotesPage from "./pages/NotesPage";
 
 function App() {
-  <Routes>
-    <Route path="/" element={<HomePage />} />
-    <Route path="/notes" element={<NotesPage />} />
-  </Routes>;
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/notes" element={<NotesPage />} />
+    </Routes>
+  );
 }
 
 export default App;
