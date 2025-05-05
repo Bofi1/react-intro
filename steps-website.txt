@@ -1,0 +1,14 @@
+spa - single page aplication (solo hay un html y las demas paginas van a funcionar a como las llames)
+
+1.- va a tener varias paginas mi website, instalaremos router
+terminal - npm i react-router-dom
+
+2.- creamos carpetas para las paginas(pages) y para los componentes(components)
+ - rfce para que se te ponga la sintaxis por defecto
+
+3.- creamos las rutas
+    main.jsx -> añadimos     <BrowserRouter> con su respectivo import
+
+4.- asignamos las rutas
+    app.jsx -> damos las estructura con sus imports ("path" es la ruta, "element" es a donde los mandaran cuando escribas la ruta)
+    ej. path = "/" -> es la pagina principal path = "/notas" -> cuando en el sitio añadan /notas lo mandaran a su respectiva pagina con su elemento
